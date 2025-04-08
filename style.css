@@ -228,7 +228,7 @@ button:hover {
 }
 
 .Cappuccino {
-    max-width: 1835px;
+    max-width: 450px;
     height: 66vh;
 
     display: flex;
@@ -242,16 +242,18 @@ button:hover {
 .Cappuccino>picture>img {
     width: 100%;
     border-radius: 8px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .cafe-gelado{
     position: absolute;
     top: -60px; /* Ajusta a posição do topo */
     left: 60%;
-    transform: translateX(80%); /* Centraliza horizontalmente */
+    transform: translateX(20%); /* Centraliza horizontalmente */
     text-align: right;
     align-items: center;
-    padding-top: 100vh;
+    padding-top: 114vh;
     gap: 10px;
 }
 
