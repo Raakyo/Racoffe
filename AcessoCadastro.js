@@ -4,30 +4,6 @@ const email = document.getElementById("email");
 const senha = document.getElementById("senha");
 const confirmacao = document.getElementById("confirmar");
 
-
-/*function cadastrar () {
-
-  fetch("http://localhost:8080/cadastrar",
-    {
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'applicantion/json'
-      },
-      method: "POST",
-      body: JSON.stringify({ 
-        nome: usuario.value,
-        email: email.value,
-        senha: senha.value
-
-      }) 
-    })
-
-    .then(function(res){console.log(res)})
-    .catch(function(res){console.log(res)})
-};*/
-
-
-
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -81,11 +57,7 @@ function checkInputs() {
   });
 
   if (formIsValid) {
-    console.log(
-    usuario.value,
-    email.value,
-    senha.value)
-    //location.href = "TelaPrincipal.html";
+    location.href = "TelaPrincipal.html";
   }
 }
 
