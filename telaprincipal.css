@@ -173,7 +173,7 @@ button:hover {
 
 .receitas {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     max-width: 1890px;
     padding: 24px 17px;
     margin: auto;
@@ -210,14 +210,22 @@ button:hover {
 }
 
 .receitas-card {
-    background: #241a1c;
-    padding: 32px;
-    border-radius: 8px;
-    display: flex;
+    background-color: #181012;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    max-height: 100%;
+}
+
+.receitas-card2 {
+    background-color: #181012;
+    color: whitesmoke;
     flex-direction: column;
-    gap: 32px;
-    flex-basis: 464px;
-    margin-top: 32px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    max-height: 100%;
 }
 
 .texto-receitas {
@@ -230,7 +238,7 @@ button:hover {
 .Cappuccino {
     max-width: 450px;
     height: 66vh;
-
+    margin: 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -241,25 +249,14 @@ button:hover {
 
 .Cappuccino>picture>img {
     width: 100%;
-    border-radius: 8px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    border-radius: 30%;
+    padding: auto;
 }
 
 .cafe-gelado{
-    position: absolute;
-    top: -60px; /* Ajusta a posição do topo */
-    left: 60%;
-    transform: translateX(20%); /* Centraliza horizontalmente */
-    text-align: right;
-    align-items: center;
-    padding-top: 114vh;
-    gap: 10px;
-}
-
-.cafe-gelado>picture>img{
-    width: 100%;
-    border-radius: 8px;
+    padding: 10px;
+    padding-left: 23px;
+    margin: 10px;
 }
 
 .receitas-card-cabecalho {
@@ -294,6 +291,7 @@ button:hover {
     font-family: Inter;
     font-size: 16PX;
     font-weight: 400;
+    padding: 5%;
 }
 
 .receitas-autor {
@@ -336,4 +334,18 @@ footer {
     font-family: Inter;
     font-size: 16PX;
     font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    section {
+        max-width: 500px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    section {
+        max-width: 600px;
+        padding: 40px;
+    }
 }
