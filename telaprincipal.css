@@ -127,7 +127,7 @@ hr {
     max-width: 45%;
     width: 1890px;
     column-count: 4;
-    column-gap: 20px;
+    column-gap: 23px;
     margin: -16px;
 }
 
@@ -149,38 +149,17 @@ hr {
 
 }
 
-.hiddem {
-    max-height: 0;
-    opacity: 0;
-    padding: 0;
-}
-
-button {
-    border: none;
-    padding: 16px;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    background-color: #A45A49;
-
-}
-
-button:hover {
-    background-color: #A45A49;
-}
-
 .receitas {
     display: flex;
     flex-direction: row;
     max-width: 1890px;
-    padding: 24px 17px;
+    padding:120px 17px 20px 17px;
     margin: auto;
 }
 
 .receitas-cabecalho {
     display: flex;
+    padding: 50px;
     flex-direction: column;
     gap: 8px;
 }
@@ -202,29 +181,26 @@ button:hover {
 }
 
 .receitas-card-container {
-    padding: 50px 160px;
+    padding: 10px 50px 130px 410px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 32px;
+    gap: 60px;
+}
+
+.receitas-card-container > .receitas-card {
+    align-items: center;
+    padding: 40px 40 px 40px 120px;
 }
 
 .receitas-card {
-    background-color: #181012;
-    color: whitesmoke;
-    border-radius: 20px;
-    padding: 20px;
-    width: 500px;
-    max-height: 100%;
-}
-
-.receitas-card2 {
     background-color: #181012;
     color: whitesmoke;
     flex-direction: column;
     border-radius: 20px;
     padding: 20px;
     width: 500px;
+    height: 94%;
     max-height: 100%;
 }
 
